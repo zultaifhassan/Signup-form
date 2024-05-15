@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.signup-form {
+  display: flex;
+  height: 1010px;
+  background: #e9f8e5;
+}
+
+.signup-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-right {
+  width: 50%;
+  background: #fcfeff;
+  border-radius: 25px 0px 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.signup-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-right h2 {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: left;
+}
+.logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h2 {
+  font-family: Aladin;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.04px;
+  text-align: left;
+  color: #020d19;
+}
+
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first-box {
+  display: flex;
+  flex-direction: column;
+  gap: 9.64px;
+  font-family: Poppins;
+  width: 758.3px;
+}
+
+.first-box span {
+  border: 2.5px solid #00000080;
+  padding: 27px 19px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.first-box label {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  opacity: 80%;
+  color: var(--black-dark, #000000);
+}
+
+.first-box span input {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  outline: none;
+  border: none;
+  opacity: 50%;
+  width: 100%;
+}
+
+.signup-right form button {
+  width: 750px;
+  height: 70px;
+  border-radius: 30px 20px 30px 20px;
+  opacity: 0px;
+  background: #73895d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #fcfeff;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.social-links {
+  display: flex;
+  gap: 36px;
+}
+
+.social-links span {
+  border: 1px solid #00000033;
+  padding: 10px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-link p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.login-link p span {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #73895d;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.img-hide {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .img-hide {
+    display: block;
+  }
+  .signup-left {
+    display: none;
+  }
+
+  .signup-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .signup-right form {
+    width: 100%;
+  }
+
+  .signup-right form h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--black-dark, #000000);
+    text-align: left;
+  }
+
+  .logo {
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 29px;
+    height: 29px;
+  }
+  .logo h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.65px;
+    text-align: left;
+    font-family: Aladin !important;
+  }
+
+  .input-boxes {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .first-box {
+    width: 100%;
+  }
+
+  .signup-right form button {
+    width: 100%;
+    border-radius: 100px;
+    height: 45px;
+    margin-top: 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: left;
+  }
+  .first-box label {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+  }
+  .first-box span {
+    padding: 12px 27px;
+    border: 1.5px solid #00000080;
+    border-radius: 28px;
+  }
+
+  .first-box span input {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    opacity: 50%;
+  }
+
+  .first-box span img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .or-image img {
+    height: 18px;
+    width: 50px;
+  }
+
+  .social-links span {
+    padding: 10px;
+  }
+
+  .social-links {
+    gap: 20px;
+  }
+  .social-links span img {
+    height: 25px;
+    width: 25px;
+  }
+}
